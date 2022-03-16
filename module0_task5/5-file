@@ -1,5 +1,2 @@
 #!/bin/bash
-VAR="\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)"
-touch $VAR
-echo "hello DevOps" >> $VAR
-
+echo "hello DevOps" >>'\*\\`"DevOps"\`\\*$\?\*\*\*\*\*:)'
