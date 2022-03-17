@@ -1,0 +1,8 @@
+#!/bin/bash
+cuenta=1
+termina=10
+while [ $termina -ge $cuenta ]
+do
+echo "DevOps"
+let cuenta=$[$cuenta+1]
+done
